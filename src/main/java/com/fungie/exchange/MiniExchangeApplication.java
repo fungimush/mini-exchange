@@ -1,4 +1,4 @@
-package com.fungie.mini_exchange;
+package com.fungie.exchange;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.fungie.mini_exchange;
+package com.fungie.exchange;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
