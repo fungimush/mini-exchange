@@ -53,9 +53,9 @@ class OrderTest {
 
     @Test
     void limitOrderWithNegativePriceIsRejected() {
-
         assertThatThrownBy(() -> Order.limit("BHP", Side.BUY, new BigDecimal("-1.00"), 100))
-                .isInstanceOf(IllegalArgumentException.class);
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessageContaining("positive price");
     }
 
 }
